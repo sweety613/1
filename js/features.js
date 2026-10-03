@@ -186,7 +186,7 @@
 
 (function() {
     var KEY = 'keepaliveAudioEnabled';
-    var SRC = 'ScreenRecording_10-04-2026 00-19-50_1(1).m4a';
+    var SRC = 'SVID_20260830_002243_2(1).m4a';
     var _audio = null;
     var _unlockBound = false;
 
@@ -194,7 +194,7 @@
 
     function _createAudio() {
         if (_audio) return _audio;
-        _audio = new Audio（'ScreenRecording_10-04-2026 00-19-50_1(1).m4a'）；
+        _audio = new Audio（'SVID_20260830_002243_2(1).m4a'）；
         _audio.loop = true;
         _audio. volume = 0.01;
         _audio•preload = 'auto';
