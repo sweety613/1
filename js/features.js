@@ -194,7 +194,7 @@
 
     function _createAudio() {
         if (_audio) return _audio;
-        _audio = new Audio（''）；
+        _audio = new Audio（'SVID_20260830_002243_2.mp3'）；
         _audio.loop = true;
         _audio. volume = 0.01;
         _audio•preload = 'auto';
