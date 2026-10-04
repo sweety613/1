@@ -186,7 +186,7 @@
 
 (function() {
     var KEY = 'keepaliveAudioEnabled';
-    var SRC = 'SVID_20260830_002243_2(1).m4a';
+    var SRC = './SVID_20260830_002243_2.m4a';
     var _audio = null;
     var _unlockBound = false;
 
